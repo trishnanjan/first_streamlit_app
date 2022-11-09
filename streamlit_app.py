@@ -51,7 +51,7 @@ streamlit.dataframe(my_data_rows)
 
 #Add a second header
 
-second_fruit_choice = streamlit.text_input('What fruit would you like to add?,'iackfruit')
-streamlit.write('The user entered ', second_fruit_choice)
+second_fruit_choice = streamlit.text_input('What fruit would you like to add?','jackfruit')
+streamlit.write('Thanks for adding', second_fruit_choice)
 
 
